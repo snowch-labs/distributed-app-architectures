@@ -17,6 +17,11 @@ A fictional startup is used for the examples, "E-MART" who are aiming to be the 
 - The solution must be open source
 - The solution must have an availability of 99.95% or greater
 - The solution should be implemented with [principles of chaos](http://principlesofchaos.org)
+- Quality is of paramount importance:
+   - Metrics should be recorded for all user requests and the request response
+   - KPIs charts should be available for all meteics to monitor how quality is changing over time
+   
+   
 
 ### Project 1 - Catalog MVP
 
