@@ -11,10 +11,11 @@ A fictional startup is used for the examples, "E-MART" who are aiming to be the 
 
 ### Overall architecture constraints
 
-- The solution will be built using microservices approach
-- The solution will be built on IBM Cloud
-- The solution will be built using IBM Cloud Continuous Delivery
-- The solution will be open source
+- The solution must be built using microservices approach
+- The solution must be built on IBM Cloud
+- The solution must be built using IBM Cloud Continuous Delivery
+- The solution must be open source
+- The solution must have an availability of 99.95% or greater
 
 ### Project 1 - Catalog MVP
 
@@ -50,7 +51,9 @@ A fictional startup is used for the examples, "E-MART" who are aiming to be the 
 - Anonymous catalog search events will be linked to a user account at checkout
 - Performance of shopping cart is paramount, analytics must not be performed on datastore created in Project 2
 - A collaborative filtering style machine learning model will be created 
+- Batch (e.g. nightly training) of the model will be sufficient for the MVP
 
 ## Project 4 - Predictive Analytis MVP
 
-- The model built in Project 3 will be used to make recommendations to users on the search page
+- The model built in Project 3 will be used to make recommendations to users on the search pagef
+- The recommendation must be created in 50ms or less
