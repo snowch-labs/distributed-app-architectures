@@ -29,6 +29,7 @@ A fictional startup is used for the examples, "E-MART" who are aiming to be the 
 - The catalog must support 500 search operations per second with a latency of 500ms or lower for 99.9% of requests
 - The catalog must have an availability of 99.95% or greater
 - The solution should be able to scale horizontally initially starting at a low cost with the cost increase approximately equal to the capacity increase (e.g. 2x capacity = 2x cost, 3x capacity = 3x cost, ...)
+- The solution should be able to scale up/down dynamically based on the workload
 
 ## Project 2 - Shopping Cart MVP
 
