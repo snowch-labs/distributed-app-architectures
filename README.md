@@ -16,6 +16,7 @@ A fictional startup is used for the examples, "E-MART" who are aiming to be the 
 - The solution must be built using IBM Cloud Continuous Delivery
 - The solution must be open source
 - The solution must have an availability of 99.95% or greater
+- The solution should be implemented with [principles of chaos](http://principlesofchaos.org)
 
 ### Project 1 - Catalog MVP
 
