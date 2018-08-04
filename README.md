@@ -58,3 +58,9 @@ A fictional startup is used for the examples, "E-MART" who are aiming to be the 
 
 - The model built in Project 3 will be used to make recommendations to users on the search pagef
 - The recommendation must be created in 50ms or less
+- More requirements coming soon
+
+## Project 5 - Business Intelligence MVP
+
+- Business users should be able to run exploratory queries against tens of terabytes of shopping data (checkouts, product, customers)
+- More requirements coming soon
