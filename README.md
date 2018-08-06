@@ -49,6 +49,11 @@ A fictional startup is used for the examples, "E-MART" who are aiming to be the 
 - Will you use a single domain name, or is per country ok?  (E.g. amazon.com [US], amazon.co.uk [UK], ...)
 - Adding full text (and fuzzy) search later may require a re-architecture
 
+## Project 1B - B2B Catalog
+
+- A subset of items will be offered to b2b customers only
+- B2B customers must be authenticated to view the items
+
 
 ## Project 2 - Shopping Cart MVP
 
