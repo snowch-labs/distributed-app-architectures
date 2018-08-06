@@ -35,6 +35,8 @@ A fictional startup is used for the examples, "E-MART" who are aiming to be the 
 - The catalog must have an availability of 99.95% or greater
 - The solution should be able to scale horizontally initially starting at a low cost with the cost increase approximately equal to the capacity increase (e.g. 2x capacity = 2x cost, 3x capacity = 3x cost, ...)
 - The solution should be able to scale up/down dynamically based on the workload
+- The catalog will serve a region (e.g. US, UK, ...)
+- Each region is an independent business unit
 
 **Nice to have functionality**
 
@@ -46,7 +48,6 @@ A fictional startup is used for the examples, "E-MART" who are aiming to be the 
 - IP Latency could be important: http://www.verizonenterprise.com/about/network/latency/
 - Will you use a single domain name, or is per country ok?  (E.g. amazon.com [US], amazon.co.uk [UK], ...)
 - Adding full text (and fuzzy) search later may require a re-architecture
-
 
 
 ## Project 2 - Shopping Cart MVP
