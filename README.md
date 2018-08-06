@@ -21,10 +21,10 @@ A fictional startup is used for the examples, "E-MART" who are aiming to be the 
    - Metrics should be recorded for all user requests and the request response code
    - KPIs charts should be available for all meteics to monitor how quality is changing over time
    
-   
 
 ### Project 1 - Catalog MVP
 
+- The catalog will have a global customer base
 - The catalog may have hundreds of thousands of items
 - An item may belong to multiple categories
 - A category must have one parent category (except the ROOT category)
@@ -32,10 +32,14 @@ A fictional startup is used for the examples, "E-MART" who are aiming to be the 
 - Catalog CRUD operations must be available in browse/search within 30 seconds
 - Users must be able to search the catalog from the latest stable chrome and firefox web browsers
 - Catalog search must support free text searching on item name, description and category
-- The catalog must support 500 search operations per second with a latency of 500ms or lower for 99.9% of requests
+- The catalog must support 500 search operations per second with a latency of 400ms or lower for 99.9% of requests
 - The catalog must have an availability of 99.95% or greater
 - The solution should be able to scale horizontally initially starting at a low cost with the cost increase approximately equal to the capacity increase (e.g. 2x capacity = 2x cost, 3x capacity = 3x cost, ...)
 - The solution should be able to scale up/down dynamically based on the workload
+
+**Supporting info**
+
+- IP Latency statistics: http://www.verizonenterprise.com/about/network/latency/
 
 ## Project 2 - Shopping Cart MVP
 
