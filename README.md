@@ -31,15 +31,21 @@ A fictional startup is used for the examples, "E-MART" who are aiming to be the 
 - Items may be managed via a REST API using CRUD (a backend UI isn't required at this stage)
 - Catalog CRUD operations must be available in browse/search within 30 seconds
 - Users must be able to search the catalog from the latest stable chrome and firefox web browsers
-- Catalog search must support free text searching on item name, description and category
 - The catalog must support 500 search operations per second with a latency of 400ms or lower for 99.9% of requests
 - The catalog must have an availability of 99.95% or greater
 - The solution should be able to scale horizontally initially starting at a low cost with the cost increase approximately equal to the capacity increase (e.g. 2x capacity = 2x cost, 3x capacity = 3x cost, ...)
 - The solution should be able to scale up/down dynamically based on the workload
 
-**Supporting info**
+**Nice to have functionality**
 
-- IP Latency statistics: http://www.verizonenterprise.com/about/network/latency/
+- Catalog search must support full text searching on item name, description and category 
+
+**Some considerations**
+
+- IP Latency could be important: http://www.verizonenterprise.com/about/network/latency/
+- Adding full text search later may require a re-architecture
+
+
 
 ## Project 2 - Shopping Cart MVP
 
