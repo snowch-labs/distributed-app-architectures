@@ -38,12 +38,13 @@ A fictional startup is used for the examples, "E-MART" who are aiming to be the 
 
 **Nice to have functionality**
 
-- Catalog search must support full text searching on item name, description and category 
+- Catalog search could support full text searching on item name, description and category
+- The full text search could support ([fuzzy matching](https://en.wikipedia.org/wiki/Approximate_string_matching))
 
 **Some considerations**
 
 - IP Latency could be important: http://www.verizonenterprise.com/about/network/latency/
-- Adding full text search later may require a re-architecture
+- Adding full text (and fuzzy) search later may require a re-architecture
 
 
 
