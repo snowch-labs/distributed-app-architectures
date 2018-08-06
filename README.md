@@ -44,6 +44,7 @@ A fictional startup is used for the examples, "E-MART" who are aiming to be the 
 **Some considerations**
 
 - IP Latency could be important: http://www.verizonenterprise.com/about/network/latency/
+- Will you use a single domain name, or is per country ok?  (E.g. amazon.com [US], amazon.co.uk [UK], ...)
 - Adding full text (and fuzzy) search later may require a re-architecture
 
 
